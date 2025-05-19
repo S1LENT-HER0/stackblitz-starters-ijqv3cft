@@ -17,6 +17,30 @@ nav a {
   color: #fff;
   text-decoration: none;
 }
+main {
+  flex: 1;
+  padding: 20px;
+}
+form input,
+form textarea,
+form button {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+form button {
+  background-color: #558b2f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #3f6c21;
+}
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -37,7 +61,7 @@ nav a {
   background: rgba(0,0,0,0.5);
 }
 .modal-content {
-  background: rgb(255, 255, 255);
+  background: white;
   padding: 1em;
   margin: 10% auto;
   width: 80%;

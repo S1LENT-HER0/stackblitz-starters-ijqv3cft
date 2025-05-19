@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #00231C;
+  background: #E0D2BD;
+  margin: 0;
+  padding: 0;
+}
+header, footer {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #790D1D;
+  color: #C5C3C3;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  margin: 0 1em;
+  color: #fff;
+  text-decoration: none;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  padding: 1em;
+}
+.item {
+  background: white;
+  padding: 1em;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+.modal-content {
+  background: rgb(255, 255, 255);
+  padding: 1em;
+  margin: 10% auto;
+  width: 80%;
+  max-width: 500px;
+}
+#closeCart {
+  float: right;
+  cursor: pointer;
+}
